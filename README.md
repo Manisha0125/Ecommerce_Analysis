@@ -17,3 +17,19 @@ This project aims to analyze e-commerce sales data stored in a MySQL database. U
 . Jupyter Notebook for data analysis and visualization.
 
 . Matplotlib and Seaborn for creating visualizations.
+
+# QUERY EXAMPLES
+Example SQL query to find the highest average selling price
+
+query='''select 
+	        SubcatName,avg(UnitPrice) as AvgSellingPrice
+        from 
+	        subcategories
+        group by 
+	        SubcatName
+        order by
+	        AvgSellingPrice desc
+        limit 10;'''
+
+        ![image](https://github.com/Manisha0125/Ecommerce_Analysis/assets/168274273/66f0d904-6bef-45b4-8469-1fe985e3d60a)
+
