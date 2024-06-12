@@ -21,21 +21,10 @@ This project aims to analyze e-commerce sales data stored in a MySQL database. U
 # QUERY EXAMPLES
 Example SQL query to find the highest average selling price
 
-
-query='''select 
-	       
-	 SubcatName,avg(UnitPrice) as AvgSellingPrice
-	 
+select 
+	        SubcatName,avg(UnitPrice) as AvgSellingPrice
         from 
 	        subcategories
-        
-	group by 
+        group by 
 	        SubcatName
         
-	order by
-	        AvgSellingPrice desc
-        
-	limit 10;'''
-
-       
-
