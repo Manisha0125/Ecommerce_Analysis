@@ -6,10 +6,14 @@ This project aims to analyze e-commerce sales data stored in a MySQL database. U
 
 # FEATURES 
 . Data querying with MYSQL in Jupyter Notebook.
+
 . Data visualization using charts and graphs.
+
 . Insights gained from the analysis.
 
 # TECHNOLOGIES
 . MySQL for database management.
+
 . Jupyter Notebook for data analysis and visualization.
+
 . Matplotlib and Seaborn for creating visualizations.
