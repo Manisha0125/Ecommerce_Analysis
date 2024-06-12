@@ -21,11 +21,4 @@ This project aims to analyze e-commerce sales data stored in a MySQL database. U
 # QUERY EXAMPLES
 Example SQL query to find the highest average selling price
 
-
-select 
-   SubcatName,avg(UnitPrice) as AvgSellingPrice
-from 
-   subcategories
-group by 
-    SubcatName
-        
+![image](https://github.com/Manisha0125/Ecommerce_Analysis/assets/168274273/ff5344e8-68e4-45be-b38c-cf0b65b8a236)
